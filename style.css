@@ -1,0 +1,214 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    background-color: black;
+    font-family: "bebas neve", cursive;
+    color: white;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.header {
+    background-image: url(fotos/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+
+}
+.header-2{
+    background-color:blueviolet;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    color: white; 
+
+}
+
+
+
+.menu .navbar ul li {
+    position:relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: blueviolet;
+
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    width: 100%;
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-self: flex-end;
+    padding-top: 200px;
+}
+
+
+
+.movies  {
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+hr{
+    border: 1px solid blueviolet;
+    width: 50%;
+    margin-bottom: 40px;
+    
+}
+.icon {
+    width: 100px;
+    height: 100px;
+
+}
+p{
+    width: 220px;
+}
+.box-1 ,
+.box-2 ,
+.box-3 {
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+}
+
+.box-container-1 , 
+.box-container-2 ,
+.box-container-3 {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+gap: 40px;
+}
+.box-1:nth-child(1),
+.box-1:nth-child(2),
+.box-1:nth-child(3),
+.box-1:nth-child(4){
+    display: inline-block;
+}
+
+.box-2:nth-child(1),
+.box-2:nth-child(2),
+.box-2:nth-child(3),
+.box-2:nth-child(4){
+    display: inline-block;
+}
+
+.box-3:nth-child(1),
+.box-3:nth-child(2),
+.box-3:nth-child(3),
+.box-3:nth-child(4){
+    display: inline-block;
+}
+.load-more {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.load-more:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.imgdecartelera{
+    width: 300px;
+    height: 400px;
+    padding: 25px 25px;
+    float: left;
+}
+.contexto{
+    text-align: justify;
+
+}
+.contexto p{
+    width: 1400px;
+    padding-right: 300px;
+    padding-top: 10px;
+    
+}
+.contexto h2{
+    width: 500px;
+    padding-right: 100px;
+    padding-top: 20px;
+   
+}
+.contexto h1{
+    width: 1200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
